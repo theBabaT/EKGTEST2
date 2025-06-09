@@ -1,0 +1,40 @@
+.quiz-container {
+  text-align: center;
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.ekg-image {
+  width: 100%;
+  max-width: 600px;
+  margin: 1rem auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.choices {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 400px;
+  margin: 2rem auto;
+}
+
+.choice-button {
+  padding: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s;
+}
+
+.choice-button:hover {
+  background-color: #ddd;
+}
+
+.solution {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+}
